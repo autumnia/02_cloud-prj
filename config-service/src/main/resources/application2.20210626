@@ -1,0 +1,27 @@
+server:
+   port: 8888
+   
+logging:
+   level:
+      com.autumnia.configservice: DEBUG   
+
+spring:
+   main:
+      banner-mode: off
+
+   application: 
+      name: config-service
+
+   profiles:
+      active: native      
+
+   cloud:
+      config:
+         server:
+            native:
+               search-location: file:D:/gitroot/spring_cloud_projects
+            git:
+               uri: https://github.com/autumnia/mycloud.git
+#                username: autumnya@gmail.com
+#                password: rlatnals00!
+#             uri: file://\\D:\\gitroot\\spring_cloud_projects

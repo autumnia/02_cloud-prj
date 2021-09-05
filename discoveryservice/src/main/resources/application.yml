@@ -1,0 +1,18 @@
+server:
+   port: 8761
+   
+logging:
+   level:
+      com.autumnia.discoveryservice: ERROR      
+  
+spring:
+   main:
+      banner-mode: off
+   application: 
+      name: discoveryservice
+    
+eureka:
+   client:
+      register-with-eureka: false
+      fetch-registry: false
+
