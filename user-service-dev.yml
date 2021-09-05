@@ -1,0 +1,12 @@
+token:
+   expiration_time: 86400000
+   secret: user_token_user_dev
+
+gateway:
+   ip: 127.0.0.1
+
+custom:
+  message: 여기는 유저 서비스 개발 입니다
+
+
+
