@@ -9,3 +9,9 @@ docker run -it --name rabbitmq -h rabbitmq \
 --network ecommerce-network \
 //--net ecommerce-network --net-alias=rabbitmq
 -d rabbitmq:management
+
+# 실행 후 상태 확인
+#  http://127.0.0.1:15672     접속 후 guest / guest 로 접속
+
+$ docker ps -a
+$ docker network inspect ecommerce-network
