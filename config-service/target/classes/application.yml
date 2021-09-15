@@ -42,4 +42,8 @@ spring:
 #               username: autumnya@gmail.com
 #               password: rlatnals00!
 
-
+encrypt:
+   key-store:
+      location: file:/apiEncryptionKey.jks
+      password: test1234
+      alias: apiEncryptionKey
