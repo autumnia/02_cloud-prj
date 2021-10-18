@@ -9,7 +9,8 @@ server:
          
 logging:
    level:
-      com.autumnia.jwtservice: DEBUG   
+      com.autumnia.jwtservice: DEBUG
+      org.hibernate.type.descriptor.sql: trace
 
 spring:
    main:
@@ -45,7 +46,8 @@ spring:
       properties:
          hibernate:
             format_sql: true
-            show_sql: true                   
+            show_sql: true 
+            use_sql_comments: true           
       defer-datasource-initialization: true     
    
 jwt:
