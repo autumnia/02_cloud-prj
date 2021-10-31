@@ -1,0 +1,234 @@
+2021-10-31 13:57:14 처리시간:573 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 13:57:14 처리시간:574 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 13:57:14 처리시간:574 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:659 
+ 메시지 ==> No active profile set, falling back to default profiles: default 
+
+2021-10-31 13:57:16 처리시간:2721 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 2.502 seconds (JVM running for 3.188) 
+
+2021-10-31 13:59:42 처리시간:148676 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 13:59:42 처리시간:148677 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 13:59:42 처리시간:148677 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 13:59:42 처리시간:148968 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.319 seconds (JVM running for 149.435) 
+
+2021-10-31 14:03:10 처리시간:356900 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:03:10 처리시간:356900 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:03:10 처리시간:356900 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:03:11 처리시간:357180 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.304 seconds (JVM running for 357.648) 
+
+2021-10-31 14:03:37 처리시간:383292 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:03:37 처리시간:383292 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:03:37 처리시간:383293 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:03:37 처리시간:383567 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.298 seconds (JVM running for 384.034) 
+
+2021-10-31 14:07:41 처리시간:627400 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:07:41 처리시간:627400 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:07:41 처리시간:627400 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:07:41 처리시간:627665 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.287 seconds (JVM running for 628.133) 
+
+2021-10-31 14:07:57 처리시간:643566 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:07:57 처리시간:643566 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:07:57 처리시간:643567 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:07:57 처리시간:643839 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.293 seconds (JVM running for 644.306) 
+
+2021-10-31 14:09:04 처리시간:710650 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:09:04 처리시간:710650 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:09:04 처리시간:710650 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:09:04 처리시간:710912 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.283 seconds (JVM running for 711.38) 
+
+2021-10-31 14:09:26 처리시간:732965 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:09:26 처리시간:732965 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:09:26 처리시간:732965 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:09:27 처리시간:733234 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.29 seconds (JVM running for 733.702) 
+
+2021-10-31 14:09:44 처리시간:750172 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:09:44 처리시간:750172 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:09:44 처리시간:750172 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:09:44 처리시간:750434 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.281 seconds (JVM running for 750.902) 
+
+2021-10-31 14:09:54 처리시간:760283 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:09:54 처리시간:760283 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:09:54 처리시간:760283 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:09:54 처리시간:760542 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.279 seconds (JVM running for 761.01) 
+
+2021-10-31 14:11:46 처리시간:872276 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:11:46 처리시간:872277 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:11:46 처리시간:872277 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:11:46 처리시간:872536 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.279 seconds (JVM running for 873.004) 
+
+2021-10-31 14:12:11 처리시간:897608 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:12:11 처리시간:897608 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:12:11 처리시간:897608 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:12:11 처리시간:897864 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.274 seconds (JVM running for 898.331) 
+
+2021-10-31 14:12:19 처리시간:905679 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:55 
+ 메시지 ==> Starting ArchitectureServiceApplication using Java 14.0.1 on autum with PID 13292 (D:\gitroot\spring_cloud_projects\architecture-service\target\classes started by autum in D:\gitroot\spring_cloud_projects\architecture-service) 
+
+2021-10-31 14:12:19 처리시간:905679 로그레벨:DEBUG 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarting 라인수:56 
+ 메시지 ==> Running with Spring Boot v2.5.6, Spring v5.3.12 
+
+2021-10-31 14:12:19 처리시간:905679 로그레벨:INFO 파일명:SpringApplication.java 
+ 클래스명:org.springframework.boot.SpringApplication 함수명:logStartupProfileInfo 라인수:663 
+ 메시지 ==> The following profiles are active: dev 
+
+2021-10-31 14:12:19 처리시간:905937 로그레벨:INFO 파일명:StartupInfoLogger.java 
+ 클래스명:org.springframework.boot.StartupInfoLogger 함수명:logStarted 라인수:61 
+ 메시지 ==> Started ArchitectureServiceApplication in 0.277 seconds (JVM running for 906.405) 
+
+2021-10-31 14:13:11 처리시간:957845 로그레벨:ERROR 파일명:HikariPool.java 
+ 클래스명:com.zaxxer.hikari.pool.HikariPool 함수명:createPoolEntry 라인수:498 
+ 메시지 ==> HikariPool-13 - Error thrown while acquiring connection from data source 
+
+org.h2.jdbc.JdbcSQLNonTransientConnectionException: The database is open in exclusive mode; can not open additional connections [90135-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:622) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:170) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.checkSuspended(Session.java:1369) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.isOpen(Session.java:1303) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.engine.Session.waitIfExclusiveModeEnabled(Session.java:1639) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeQuery(Command.java:186) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcConnection.isReadOnly(JdbcConnection.java:631) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.PoolBase.setupConnection(PoolBase.java:408) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:369) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool.access$100(HikariPool.java:71) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:726) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariPool$PoolEntryCreator.call(HikariPool.java:712) ~[HikariCP-4.0.3.jar:na]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) ~[na:na]
+	at java.base/java.lang.Thread.run(Thread.java:832) ~[na:na]

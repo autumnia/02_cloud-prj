@@ -1,0 +1,58 @@
+server:
+   port: 8080
+   servlet:
+      encoding:
+         charset: UTF-8
+         force: true
+   tomcat:
+      uri-encoding: UTF-8
+      
+logging:
+   file:
+      path: logs
+   pattern:
+      console: '%d{yyyy-MM-dd HH:mm:ss} 처리시간:%r 로그레벨:%p 파일명:%F %n 클래스명:%C 함수명:%M 라인수:%L %n 메시지 ==> %m %n%n'
+      file: '%d{yyyy-MM-dd HH:mm:ss} 처리시간:%r 로그레벨:%p 파일명:%F %n 클래스명:%C 함수명:%M 라인수:%L %n 메시지 ==> %m %n%n'
+   level:
+      root: FATAL
+      org.springframework.web: info
+#      org.springframework.security: info
+      com.autumnia.aaservice: DEBUG
+      
+spring:
+   profiles:
+      active: dev      
+   main:
+      banner-mode: off
+   output:
+      ansi.enabled: always
+   application:
+      name: architecture-service
+   http:
+      encoding:
+         charset: UTF-8
+         enabled: true
+         force: true
+   https:
+      encoding:
+         charset: UTF-8
+         enabled: true
+         force: true
+   h2:
+      console:
+         enabled: true
+   datasource:
+      driver-class-name: org.h2.Driver
+      url: jdbc:h2:mem:testdb
+      username: sa
+      password: null
+   jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      hibernate:
+         ddl-auto: create-drop # drop -> create -> alter  -> drop(종료)
+      properties:
+         hibernate:
+            format_sql: true
+            show_sql: true
+      defer-datasource-initialization: true
+
