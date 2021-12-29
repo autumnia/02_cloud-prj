@@ -77,7 +77,6 @@ public class UserController {
 		return ResponseEntity.status(HttpStatus.CREATED).body(userResponse) ;
 	}
 
-
 	@GetMapping("/status")
 	public String status(HttpServletRequest request) {
 		
