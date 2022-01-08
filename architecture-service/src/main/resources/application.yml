@@ -1,11 +1,24 @@
+# SSL 인증키 만들기
+# keytool -genkey -alias spring -storetype PKCS12 -keyalg RSA -keysize 2048 -keystore keystore.p12 -validity 4000
+# 답변 autumn kim, lottemart, lottemart.com, seoul, seoul, 82, yes
+# server.http2.enabled=true 설정 필요
+# curl -I -k --http2 https://localhost:8443/hello
+
 server:
-   port: 8080
+#   port: 80
    servlet:
       encoding:
          charset: UTF-8
          force: true
    tomcat:
       uri-encoding: UTF-8
+   ssl:
+      key-store: keystore.p12
+      key-store-type: PKCS12
+      key-store-password: rlarkdmf
+      key-alias: spring
+   http2:
+      enabled: true
       
 logging:
    file:
@@ -14,8 +27,8 @@ logging:
       console: '%d{yyyy-MM-dd HH:mm:ss} 처리시간:%r 로그레벨:%p 파일명:%F %n 클래스명:%C 함수명:%M 라인수:%L %n 메시지 ==> %m %n%n'
       file: '%d{yyyy-MM-dd HH:mm:ss} 처리시간:%r 로그레벨:%p 파일명:%F %n 클래스명:%C 함수명:%M 라인수:%L %n 메시지 ==> %m %n%n'
    level:
-      root: FATAL
-      org.springframework.web: info
+#      root: FATAL
+#      org.springframework.web: info
 #      org.springframework.security: info
       com.autumnia.aaservice: DEBUG
       
