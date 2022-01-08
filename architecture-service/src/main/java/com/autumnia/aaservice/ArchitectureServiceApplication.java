@@ -18,12 +18,12 @@ public class ArchitectureServiceApplication {
 	@Bean
 	public ServletWebServerFactory serverFactory() {
 		TomcatServletWebServerFactory tomcat = new TomcatServletWebServerFactory();
-		tomcat.addAdditionalTomcatConnectors(createStandardHttp2Connector()); // 톰캣에 Connector 추가
+		tomcat.addAdditionalTomcatConnectors(createStandardHttpConnector()); // 톰캣에 Connector 추가
 		return tomcat;
 	}
 
 	// 톰켓의 경우 기본적으로 포트가 8080 으로 생성 된다. 
-	private Connector createStandardHttp2Connector() {
+	private Connector createStandardHttpConnector() {
 	    Connector connector = new Connector("org.apache.coyote.http11.Http11NioProtocol");
 	    connector.setPort(80); 
 	    return connector;
