@@ -1,5 +1,4 @@
-
-package com.autumnia.userservice.util;
+package com.autumnia.aaservice.sample.util;
 
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
