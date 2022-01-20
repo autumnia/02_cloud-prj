@@ -13,7 +13,7 @@ server:
    tomcat:
       uri-encoding: UTF-8
    ssl:
-      key-store: keystore.p12
+      key-store: D:\gitroot\IdeaProjects\cloud-prj\architecture-service\keystore.p12
       key-store-type: PKCS12
       key-store-password: rlarkdmf
       key-alias: spring
