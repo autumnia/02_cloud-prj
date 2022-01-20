@@ -7,6 +7,7 @@ import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 
+import com.autumnia.userservice.util.ObjectUtil;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.core.env.Environment;
@@ -40,11 +41,15 @@ public class UserController {
 	public ResponseEntity<UserResponse> getUserById(@PathVariable("userId") String userId) {
 			
 		UserDto userDto = this.userService.findByUserId(userId);
+		log.info( userDto.toString() );
 
-		ModelMapper mapper = new ModelMapper();
-		mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);		
-		UserResponse userResponse = mapper.map(userDto, UserResponse.class);
-		
+//		ModelMapper mapper = new ModelMapper();
+//		mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+//		UserResponse userResponse = mapper.map(userDto, UserResponse.class);
+
+		UserResponse userResponse = ObjectUtil.toModel( userDto, UserResponse.class);
+		log.info( userResponse.toString() );
+
 		return ResponseEntity.status(HttpStatus.OK).body(userResponse) ;
 	}		
 	

@@ -8,6 +8,7 @@ com\autumnia\userservice\config\WebSecurityConfig.class
 com\autumnia\userservice\service\UserServiceImpl.class
 com\autumnia\userservice\controller\UserController.class
 com\autumnia\userservice\dto\UserDto.class
+com\autumnia\userservice\util\ObjectUtil.class
 com\autumnia\userservice\vo\OrderResponse.class
 com\autumnia\userservice\repository\UserEntity.class
 com\autumnia\userservice\UserserviceApplication.class
