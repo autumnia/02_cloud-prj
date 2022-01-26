@@ -51,8 +51,12 @@ public class TokenProvider implements InitializingBean {
 		long now = (new Date()).getTime();
 		Date validity = new Date(now + this.tokenValidityInMilliseconds);
 
-		String strToken = Jwts.builder().setSubject(authentication.getName()).claim(AUTHORITIES_KEY, authorities)
-				.signWith(key, SignatureAlgorithm.HS512).setExpiration(validity).compact();
+		String strToken = Jwts.builder()
+				.setSubject(authentication.getName())
+				.claim(AUTHORITIES_KEY, authorities)
+				.signWith(key, SignatureAlgorithm.HS512)
+				.setExpiration(validity)
+				.compact();
 		
 		return strToken;
 	}
