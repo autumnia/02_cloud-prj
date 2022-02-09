@@ -5,7 +5,7 @@
 # curl -I -k --http2 https://localhost:8443/hello
 
 server:
-#   port: 80
+   port: 80
    servlet:
       encoding:
          charset: UTF-8
@@ -41,6 +41,9 @@ spring:
       ansi.enabled: always
    application:
       name: architecture-service
+  devtools:
+    livereload:
+      enabled: true      
    http:
       encoding:
          charset: UTF-8
@@ -51,6 +54,15 @@ spring:
          charset: UTF-8
          enabled: true
          force: true
+# 다국어         
+   messages:
+      basename: messages
+# 보안      
+  security:
+    user:
+      name: autumn
+      password: fall0823      
+# database
    h2:
       console:
          enabled: true
