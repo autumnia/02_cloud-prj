@@ -1,0 +1,48 @@
+2021-07-13 08:18:14.637  INFO 61316 --- [restartedMain] com.autumnia.batch.BatchApplication      : Starting BatchApplication using Java 15.0.2 on DESKTOP-PI5E4VT with PID 61316 (D:\gitroot\martprjs\batch\target\classes started by autumn in D:\gitroot\martprjs\batch)
+2021-07-13 08:18:14.645 DEBUG 61316 --- [restartedMain] com.autumnia.batch.BatchApplication      : Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-07-13 08:18:14.645  INFO 61316 --- [restartedMain] com.autumnia.batch.BatchApplication      : The following profiles are active: dev
+2021-07-13 08:18:15.333  WARN 61316 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-13 08:18:15.849  INFO 61316 --- [restartedMain] com.autumnia.batch.BatchApplication      : Started BatchApplication in 1.557 seconds (JVM running for 2.256)
+2021-07-13 08:18:15.972 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : 
+2021-07-13 08:18:15.973 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : ----------------------------------------------------
+2021-07-13 08:18:15.973 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : Before Starting the job
+2021-07-13 08:18:15.973 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : jobname: helloworldJob
+2021-07-13 08:18:15.973 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : job context: {batch name=my batch}
+2021-07-13 08:18:16.005 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : 
+2021-07-13 08:18:16.005 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : ----------------------------------------------------
+2021-07-13 08:18:16.005 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : Before Starting the step
+2021-07-13 08:18:16.005 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : step context: {batch name=my batch}
+2021-07-13 08:18:16.005 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : job parameter : {jobRunDate=2021-07-03, start_dt=2021-07-04, fileInput=inputdata/product.xml, run.id=26}
+2021-07-13 08:18:16.027 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : step context: {batch name=my batch}
+2021-07-13 08:18:16.028 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : After Ending the step
+2021-07-13 08:18:16.028 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : ----------------------------------------------------
+2021-07-13 08:18:16.028 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : 
+2021-07-13 08:18:16.141 DEBUG 61316 --- [restartedMain] c.a.b.demo.config.BatchConfiguration$1   : Creating JAXBContext with classes to be bound [class com.autumnia.batch.demo.model.Product]
+2021-07-13 08:18:16.260 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : job context: {batch name=my batch}
+2021-07-13 08:18:16.260 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : After Ending the job
+2021-07-13 08:18:16.260 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : ----------------------------------------------------
+2021-07-13 08:18:16.260 DEBUG 61316 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : 
+2021-07-13 08:23:31.881  INFO 60568 --- [restartedMain] com.autumnia.batch.BatchApplication      : Starting BatchApplication using Java 15.0.2 on DESKTOP-PI5E4VT with PID 60568 (D:\gitroot\martprjs\batch\target\classes started by autumn in D:\gitroot\martprjs\batch)
+2021-07-13 08:23:31.883 DEBUG 60568 --- [restartedMain] com.autumnia.batch.BatchApplication      : Running with Spring Boot v2.5.2, Spring v5.3.8
+2021-07-13 08:23:31.883  INFO 60568 --- [restartedMain] com.autumnia.batch.BatchApplication      : The following profiles are active: dev
+2021-07-13 08:23:32.488  WARN 60568 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-13 08:23:32.972  INFO 60568 --- [restartedMain] com.autumnia.batch.BatchApplication      : Started BatchApplication in 1.474 seconds (JVM running for 2.278)
+2021-07-13 08:23:33.089 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : 
+2021-07-13 08:23:33.089 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : ----------------------------------------------------
+2021-07-13 08:23:33.090 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : Before Starting the job
+2021-07-13 08:23:33.090 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : jobname: helloworldJob
+2021-07-13 08:23:33.090 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : job context: {batch name=my batch}
+2021-07-13 08:23:33.120 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : 
+2021-07-13 08:23:33.120 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : ----------------------------------------------------
+2021-07-13 08:23:33.120 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : Before Starting the step
+2021-07-13 08:23:33.120 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : step context: {batch name=my batch}
+2021-07-13 08:23:33.120 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : job parameter : {jobRunDate=2021-07-03, start_dt=2021-07-04, fileInput=inputdata/product.xml, run.id=27}
+2021-07-13 08:23:33.141 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : step context: {batch name=my batch}
+2021-07-13 08:23:33.141 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : After Ending the step
+2021-07-13 08:23:33.142 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : ----------------------------------------------------
+2021-07-13 08:23:33.142 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoStepExcecutionListener     : 
+2021-07-13 08:23:33.295 DEBUG 60568 --- [restartedMain] c.a.b.demo.config.BatchConfiguration$1   : Creating JAXBContext with classes to be bound [class com.autumnia.batch.demo.model.Product]
+2021-07-13 08:23:33.415 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : job context: {batch name=my batch}
+2021-07-13 08:23:33.415 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : After Ending the job
+2021-07-13 08:23:33.415 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : ----------------------------------------------------
+2021-07-13 08:23:33.416 DEBUG 60568 --- [restartedMain] c.a.b.d.l.DemoJobExecutionListener       : 

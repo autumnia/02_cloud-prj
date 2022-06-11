@@ -1,0 +1,13 @@
+com\autumnia\batch\tls\Main.class
+com\autumnia\batch\BatchApplication.class
+com\autumnia\batch\tls\HttpsConn$Builder$1.class
+com\autumnia\batch\threadmgr\CThread.class
+com\autumnia\batch\demo\reader\DemoInMemReader.class
+com\autumnia\batch\demo\config\BatchConfiguration.class
+com\autumnia\batch\demo\processor\DemoInMemeItemProcessor.class
+com\autumnia\batch\demo\listener\DemoJobExecutionListener.class
+com\autumnia\batch\demo\listener\DemoStepExcecutionListener.class
+com\autumnia\batch\demo\config\BatchConfiguration$1.class
+com\autumnia\batch\tls\HttpsConn.class
+com\autumnia\batch\demo\writer\DemoConsoleItemWriter.class
+com\autumnia\batch\tls\HttpsConn$Builder.class

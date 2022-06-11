@@ -1,0 +1,4 @@
+productID,productName,ProductDesc,price,unit
+1,Apple,apple_cell_phone,500.00,10
+2,Dell,dell_computer,3000,5
+3,office,ms_office_software,196,23
