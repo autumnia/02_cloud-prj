@@ -1,10 +1,14 @@
 # docker
 	설치 주소
-	https://www.docker.com/products/docker-desktop
-	http://localhost/tutorial/ <= 설치 후 튜토리얼 
+		https://www.docker.com/products/docker-desktop
+		http://localhost/tutorial/ <= 설치 후 튜토리얼 
+
+	Mac 에서 설치
+		brew install --cask docker
+		docker -v
 
 	이미지 주소
-	https://hub.docker.com
+		https://hub.docker.com
 
     도커 명령어 
 	docker images | grep 16.04   <= 이미지가 많을 경우 linux 명령어로 찾는다. 
