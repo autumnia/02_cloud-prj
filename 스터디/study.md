@@ -9,8 +9,12 @@
 
 # maven 컴파일 그리고 jar 실행
 ```
+	* jar 생성
 	mvnw clean compile package
-	java -jar -Dserver.port=9004 ./target/userservice-0.0.1-SNAPSHOT.jar
+
+	* 실행
+	- .\mvnw spring-boot:run
+	- java -jar -Dserver.port=9004 ./target/userservice-0.0.1-SNAPSHOT.jar
 ```
 
 # application.yml 수정 후
@@ -29,9 +33,7 @@ API gateway
 		Zull	<= server side load balancer 
 		gateway (비동기 방식 )
 		
-cmd 추가
-	.\mvnw clean compile package		
-	.\mvnw spring-boot:run
+
 
 
 
