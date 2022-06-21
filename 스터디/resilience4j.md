@@ -16,15 +16,26 @@
 
     * 커스텀 설정
     @Configuration
-    public class Resilience4JConfiguration {
+    public class Resilience4JConfig {
         @Bean
-        public Customizer< resilience4jCircuitBreakerFactory >
+        public Customizer< Resilience4jCircuitBreakerFactory >
             CircuitBreakerConfig circuitBreakerConfig = cirguitBreakerConfig.custom();
                 .failureRateThreshold(4)
                 .waitDurationInOpenState(Duration.ofMillis(1000) )
                 .slidngWindowType( circuiBreakerConifg.SlidingWindowType.COUNT_BASED)
                 .slidingWindowsSize(2)
                 .build()
+
+            TimeLimiterConfig timeLimiterConfig = TimeLimiterConfig.custom()
+                .timeoutDuration(Duration.ofSceconds(4))
+                .build()
+
+            return factory -> factory.configuratDefault(
+                id -> new Resilience4JConfigbuilder(id)
+                .timeLimiterconfig( timeLimiterConfig)
+                .circuitBreakerConfig( circuitBreaker-config)
+                .build()
+            )                
         }
     }
 
