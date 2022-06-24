@@ -1,0 +1,5 @@
+encript:
+  key-store:
+    location: file://${user.home}/Desktop/Work/keystore/apiEncriptionKey.jks
+    password: test1234
+    alias: apiEncriptionKey
