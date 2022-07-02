@@ -1,0 +1,12 @@
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\response\BaseResponse.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\UserQueryApplication.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\response\UserLookupResponse.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\UserLookupController.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\services\UserQueryHandler.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\services\UserEventHandler.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\services\UserEventHandlerImpl.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\repositories\UserRepository.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\request\FindAllUsersQuery.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\request\SearchUsersQuery.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\controllers\request\FindUserByIdQuery.java
+D:\gitroot\IdeaProjects\user-management\user.query.api\src\main\java\com\springbank\user\query\api\services\UserQueryHandlerImpl.java

@@ -1,0 +1,12 @@
+com\springbank\user\query\api\controllers\request\SearchUsersQuery.class
+com\springbank\user\query\api\controllers\UserLookupController.class
+com\springbank\user\query\api\services\UserEventHandler.class
+com\springbank\user\query\api\services\UserQueryHandler.class
+com\springbank\user\query\api\controllers\response\UserLookupResponse.class
+com\springbank\user\query\api\services\UserQueryHandlerImpl.class
+com\springbank\user\query\api\UserQueryApplication.class
+com\springbank\user\query\api\controllers\response\BaseResponse.class
+com\springbank\user\query\api\controllers\request\FindAllUsersQuery.class
+com\springbank\user\query\api\repositories\UserRepository.class
+com\springbank\user\query\api\services\UserEventHandlerImpl.class
+com\springbank\user\query\api\controllers\request\FindUserByIdQuery.class
