@@ -1,0 +1,8 @@
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\events\UserRegisteredEvent.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\events\UserRemovedEvent.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\configuration\AxonConfig.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\events\UserUpdatedEvent.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\models\User.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\vo\Account.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\domain\vo\Role.java
+D:\gitroot\IdeaProjects\user-management\user.core\src\main\java\com\springbank\user\utils\ObjectUtil.java
