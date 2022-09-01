@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "",
+      "type": "com.autumnia.shop.userservice.common.properties.KakaoProperties",
+      "sourceType": "com.autumnia.shop.userservice.common.properties.KakaoProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "client-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.autumnia.shop.userservice.common.properties.KakaoProperties"
+    },
+    {
+      "name": "javascript",
+      "type": "java.lang.String",
+      "sourceType": "com.autumnia.shop.userservice.common.properties.KakaoProperties"
+    },
+    {
+      "name": "restapi",
+      "type": "java.lang.String",
+      "sourceType": "com.autumnia.shop.userservice.common.properties.KakaoProperties"
+    }
+  ],
+  "hints": []
+}
