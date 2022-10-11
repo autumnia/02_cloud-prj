@@ -1,0 +1,18 @@
+#servlet:
+#  encoding:
+#    charset: UTF-8
+#    force: true
+#tomcat:
+#  uri-encoding: UTF-8
+
+spring:
+  application:
+    name: junitprj
+  profiles:
+    active:
+      - dev
+  main:
+    banner-mode: off
+  output:
+    ansi:
+      enabled: always
