@@ -1,4 +1,6 @@
-# 인텔리 제이 설정
+
+
+### 인텔리 제이 설정
 ```
     shift 두번
     edit custom VM option 입력  사용자 지정 vm 옵션 편집
@@ -6,12 +8,13 @@
     -Dconsole.encoding=UTF-8
 ```
 
-# git 초기화
+### git 초기화
 ```
-giit config --global user.email "메일"
-giit config --global user.name "이름"
-
 git init
+git config --global user.email "메일"
+git config --global user.name "이름"
+
+
 git add .
 git commit -m "초기화"
 ```
